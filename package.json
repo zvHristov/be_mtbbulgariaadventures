@@ -11,6 +11,7 @@
     "strapi": "strapi"
   },
   "dependencies": {
+    "@paypal/checkout-server-sdk": "^1.0.3",
     "@strapi/plugin-cloud": "5.1.1",
     "@strapi/plugin-users-permissions": "5.1.1",
     "@strapi/strapi": "5.1.1",
@@ -18,12 +19,15 @@
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.0.0",
+    "stripe": "^17.2.1",
     "styled-components": "^6.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",
+    "@types/paypal-rest-sdk": "^1.7.9",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/stripe": "^8.0.416",
     "typescript": "^5"
   },
   "engines": {
